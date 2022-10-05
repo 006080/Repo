@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: inherit;
+    color: #6a471c;
+    margin: 30px;
+}
+h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.logo {
+    width: 50px;
+    display: inline-block;
+}
+
+.logo img {
+    width: inherit;
+}
+nav ul li a {
+    padding: 35px;
+    text-decoration: none;
+    color: #ebe1d5;
+}
+
+nav {
+    width: 800px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1rem;
+
+
+}
+
+nav li {
+    display: inline-block;
+    background-color: #6a471c;
+    border-radius: 30px;
+
+}
+
+article {
+    display: inline-block;
+    width: 500px; height: 500px;
+    border-style: inset;
+    margin: 50px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    background-color: #ebe1d5;
+}
+
+.pp {
+    padding: 25px;
+}
+h3 {
+    padding: 25px;
+}
+
+/* Styling links */
+/*
+    :link
+    :visited
+    :hover
+    :active
+*/
